@@ -429,30 +429,6 @@ nav ul li {
     transform: scale(2) translate(-25%, -25%);
   }
 }
-#files {
-  display: grid;
-  place-content: center;
-  margin: 5vh auto;
-  text-align: center;
-}
-#files h3 {
-  height: 0;
-  opacity: 0;
-}
-#files .container {
-  display: inline-block;
-  padding: 5vmin;
-  outline: 4px dashed var(--color-secondary);
-  background-color: var(--color-background);
-  text-align: center;
-}
-#files .container a:not(:last-child) {
-  margin: 0.5rem;
-}
-#files .container a:not(:last-child):not(.link-codepen) {
-  font-size: clamp(1.5rem, 4vw, 2rem);
-}
-
 .features {
   position: relative;
   width: 100%;
